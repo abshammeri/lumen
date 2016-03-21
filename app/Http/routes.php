@@ -10,7 +10,10 @@
 | and give it the Closure to call when that URI is requested.
 |
 */
+use Illuminate\Http\Request;
 
-$app->get('/', function () use ($app) {
-    return $app->version();
+
+$app->post('/test/url', function (Request $request) use ($app) {
+
+    return [ "X"=>$request->input("X") ];
 });
