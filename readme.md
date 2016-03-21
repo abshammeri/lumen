@@ -1,6 +1,6 @@
 
 ## Lumen PHP Framework - TCP-based Protocol ( Async Lumen framework)
-- This work is in its early phase. It's now a fork from Lumen framework.
+- This work is in its early phase. It's now just a fork from Lumen framework. This might be changed later.
 - Lumen is a popular php microframework ( based on laravel,symfony and others).
 - The goals are:
     - To replace http protcol with any custom TCP protocol without changing anything inside Lumen framework.
